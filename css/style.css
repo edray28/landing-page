@@ -49,8 +49,7 @@ body {
 /* Greek Society */
 
 .greek-society {
-  justify-content: center;
-  align-items: center;
+  display: flex;
   flex-direction: column;
   padding: 30px;
   background-color: #1f2937;
@@ -58,11 +57,11 @@ body {
 
 .greek-society-content {
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  text-align: left;
+  text-align: justify;
   flex-direction: column;
-  margin: 40px;
-  margin-top: 0px;
+  margin-right: 50px;
+  align-items: center;
+  margin: 0;
 }
 
 .greek-society h1 {
@@ -70,6 +69,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #f9faf8;
   font-weight: bolder;
+  margin: 0;
 }
 .greek-society p {
   font-size: 18px;
@@ -77,25 +77,35 @@ body {
   color: #f9faf8;
 }
 
-.greek-society-content button {
-  background-color: #3882f6;
-  color: #f9faf8;
-  font-size: 24px;
+.greek-img img {
+  width: 500px;
+  height: 350px;
+  margin-left: 50px;
+  align-self: flex-end;
 }
 
-.greece-image img {
-  display: inline-block;
-  width: 500px;
-  height: 356px;
-  margin-left: auto;
+.greek-society button {
+  background: #3882f6;
+  color: #f9faf8;
+  font-size: 24px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 12px;
+  text-align: left;
+  font-weight: bold;
 }
 
 /* Greek Person */
 .famous-greek-person {
-  border: solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 50px;
 }
 
-.famous-greek-person h2 {
+.famperson {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
@@ -103,17 +113,19 @@ body {
 }
 
 .famous-greek-person p {
-  font-size: 18px;
+  font-size: 16px;
   color: #24272e;
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
 }
 
 .famous-greek-person img {
-  width: 64px;
-  height: 70px;
+  width: 200px;
+  height: 200px;
   margin-right: auto;
   border: solid #3882f6;
   border-radius: 12px;
+  margin: 5px 20px 0px 20px;
 }
 
 /* Greek Quotes */
@@ -125,6 +137,7 @@ body {
 .famous-greek-quote {
   background-color: #e5e7eb;
   margin: auto;
+  padding: 60px;
 }
 .famous-greek-quote p {
   font-size: 36px;
@@ -133,6 +146,48 @@ body {
   color: #1f2937;
   margin: 90px;
   text-align: right;
+}
+
+.sign-up {
+  padding: 100px;
+  text-align: center;
+  flex: 1;
+  margin: 60px 100px;
+  padding: 20px 80px;
+  display: flex;
+  margin-left: 500px;
+}
+
+.sign-up-bar {
+  background-color: #3882f6;
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.sign-up-bar h2 {
+  color: white;
+}
+.btnsign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.btnsign button {
+  color: #fff;
+  font-family: "Roboto", arial;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+
+.sign-up-bar p {
+  color: #fff;
+  opacity: 0.7;
+  margin: 0px 30px 30px 50px;
 }
 
 /* Footer */
