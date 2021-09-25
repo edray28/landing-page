@@ -1,3 +1,146 @@
 body {
-  background-color: blue;
+  font-size: 15px;
+  font-family: Helvetica, Arial, "Times New Roman";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  background-color: #1f2937;
+  align-items: center;
+  padding: 20px 0px 20px 100px;
+}
+
+.header-logo img {
+  width: 64px;
+  height: 70px;
+  margin-right: auto;
+}
+
+.header-anchor {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 30px 0px 0px;
+  font-size: 24px;
+  gap: 10px;
+}
+
+.header-anchor a {
+  padding: 10px;
+  font-weight: bold;
+  flex-direction: row;
+  font-size: 28px;
+  gap: 10px;
+  font-family: "Segoe UI", Verdana;
+  text-decoration: none;
+  color: white;
+}
+
+.header-anchor a:hover {
+  color: gray;
+}
+
+/* Greek Society */
+
+.greek-society {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #1f2937;
+}
+
+.greek-society-content {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin: 40px;
+  margin-top: 0px;
+}
+
+.greek-society h1 {
+  font-size: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+.greek-society p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f9faf8;
+}
+
+.greek-society-content button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.greece-image img {
+  display: inline-block;
+  width: 500px;
+  height: 356px;
+  margin-left: auto;
+}
+
+/* Greek Person */
+.famous-greek-person {
+  border: solid red;
+}
+
+.famous-greek-person h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.famous-greek-person p {
+  font-size: 18px;
+  color: #24272e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.famous-greek-person img {
+  width: 64px;
+  height: 70px;
+  margin-right: auto;
+  border: solid #3882f6;
+  border-radius: 12px;
+}
+
+/* Greek Quotes */
+.famous-greek-quotes {
+  display: flex;
+  border: solid red;
+}
+
+.famous-greek-quote {
+  background-color: #e5e7eb;
+  margin: auto;
+}
+.famous-greek-quote p {
+  font-size: 36px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #1f2937;
+  margin: 90px;
+  text-align: right;
+}
+
+/* Footer */
+.footer {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1f2937;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  color: white;
 }
